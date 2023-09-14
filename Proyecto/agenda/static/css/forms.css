@@ -1,0 +1,43 @@
+:root {
+    --color-primary: #2ea3f2;
+    --color-text: #666;
+    --font-main: Roboto-bold;
+    --font-text: Roboto-regular;
+}
+
+input {
+    outline: none;
+    box-shadow: none;
+    border: 1px solid var(--color-text);
+    padding: 5px;
+    width: 100%;
+}
+
+.btn-send {
+    width: 78%;
+    background-color: var(--color-primary);
+    color: white;
+    border: 0;
+    padding: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.aux-btn-form {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+.aux-btn-form a {
+    padding-right: 10px;
+    text-decoration: none;
+}
